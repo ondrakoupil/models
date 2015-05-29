@@ -2,7 +2,6 @@
 
 include "../bootstrap.php";
 
-use \Nette;
 use \Tester\TestCase;
 use \Tester\Assert;
 use \OndraKoupil\Testing\NetteDatabaseTestCase;
@@ -646,5 +645,5 @@ class DataManagerBasicsTest extends NetteDatabaseTestCase {
 }
 
 $connection = require("../db.php");
-$testCase=new DataManagerBasicsTest($connection, "initdb.sql");
+$testCase=new DataManagerBasicsTest($connection, "initdb-datamanager.sql");
 $testCase->run();
