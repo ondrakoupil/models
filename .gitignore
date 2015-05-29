@@ -1,0 +1,8 @@
+composer.phar
+vendor/
+/nbproject/
+/run-tests.sh
+/tests/coverage.*
+/tests/*/output
+/nbproject/private/
+.DS_Store

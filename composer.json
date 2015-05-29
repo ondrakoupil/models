@@ -1,0 +1,34 @@
+{
+    "name": "ondrakoupil/models",
+    "description": "Few utility classes for easy data manipulation",
+    "require-dev": {
+        "nette/tester": "^1.4@dev",
+		"ondrakoupil/testing-utils": "^0.0.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ondřej Koupil",
+            "email": "koupil@optimato.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ondrakoupil/tools": "^0.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "OndraKoupil\\Models\\": "src/"
+        }
+    },
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ondrakoupil/testing-utils"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ondrakoupil/tools"
+        }        
+    ]
+}
