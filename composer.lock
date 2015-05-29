@@ -4,39 +4,39 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9216377fb44d4873e20daaade88fabf3",
+    "hash": "4f25a9e11994e1c34e565ec84ef92b5d",
     "packages": [
         {
             "name": "nette/caching",
-            "version": "dev-master",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/caching.git",
-                "reference": "0605f9590616435ba24c5af7b5a71666156db246"
+                "reference": "74fa3db6bebc73afdd49d964b37621e35e1a97ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/caching/zipball/0605f9590616435ba24c5af7b5a71666156db246",
-                "reference": "0605f9590616435ba24c5af7b5a71666156db246",
+                "url": "https://api.github.com/repos/nette/caching/zipball/74fa3db6bebc73afdd49d964b37621e35e1a97ff",
+                "reference": "74fa3db6bebc73afdd49d964b37621e35e1a97ff",
                 "shasum": ""
             },
             "require": {
                 "nette/finder": "~2.2",
                 "nette/utils": "~2.2",
-                "php": ">=5.4.4"
+                "php": ">=5.3.1"
             },
             "conflict": {
                 "nette/nette": "<2.2"
             },
             "require-dev": {
-                "latte/latte": "~2.4",
+                "latte/latte": "~2.3",
                 "nette/di": "~2.3",
                 "nette/tester": "~1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -62,27 +62,27 @@
             ],
             "description": "Nette Caching Component",
             "homepage": "http://nette.org",
-            "time": "2015-05-21 13:28:59"
+            "time": "2015-05-03 12:51:14"
         },
         {
             "name": "nette/database",
-            "version": "dev-master",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/database.git",
-                "reference": "1801e2e16f7c5da64bb8b29ac2779356da6ca788"
+                "reference": "3c7309a9e44f9cb5e893675206d7f2680c4b3b58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/database/zipball/1801e2e16f7c5da64bb8b29ac2779356da6ca788",
-                "reference": "1801e2e16f7c5da64bb8b29ac2779356da6ca788",
+                "url": "https://api.github.com/repos/nette/database/zipball/3c7309a9e44f9cb5e893675206d7f2680c4b3b58",
+                "reference": "3c7309a9e44f9cb5e893675206d7f2680c4b3b58",
                 "shasum": ""
             },
             "require": {
                 "ext-pdo": "*",
                 "nette/caching": "~2.2",
                 "nette/utils": "~2.2",
-                "php": ">=5.4.4"
+                "php": ">=5.3.1"
             },
             "conflict": {
                 "nette/nette": "<2.2"
@@ -95,7 +95,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -121,25 +121,25 @@
             ],
             "description": "Nette Database Component",
             "homepage": "http://nette.org",
-            "time": "2015-05-21 11:48:19"
+            "time": "2015-04-22 16:58:40"
         },
         {
             "name": "nette/finder",
-            "version": "dev-master",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/finder.git",
-                "reference": "6ec9057f36d02e7fd3bd5c215e3ed33a748ccd7c"
+                "reference": "0eba793c90e236714b6f76474590d14d6bfe733a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/finder/zipball/6ec9057f36d02e7fd3bd5c215e3ed33a748ccd7c",
-                "reference": "6ec9057f36d02e7fd3bd5c215e3ed33a748ccd7c",
+                "url": "https://api.github.com/repos/nette/finder/zipball/0eba793c90e236714b6f76474590d14d6bfe733a",
+                "reference": "0eba793c90e236714b6f76474590d14d6bfe733a",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "~2.2",
-                "php": ">=5.4.4"
+                "php": ">=5.3.1"
             },
             "conflict": {
                 "nette/nette": "<2.2"
@@ -150,7 +150,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -176,24 +176,24 @@
             ],
             "description": "Nette Finder: Files Searching",
             "homepage": "http://nette.org",
-            "time": "2015-05-21 11:23:09"
+            "time": "2015-02-17 20:36:43"
         },
         {
             "name": "nette/utils",
-            "version": "dev-master",
+            "version": "v2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "5177b69e8dc33b8b7ce9329cb1c36387133ced8f"
+                "reference": "cda96ff718e7bad5e949527dbfa1d6d0498181d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/5177b69e8dc33b8b7ce9329cb1c36387133ced8f",
-                "reference": "5177b69e8dc33b8b7ce9329cb1c36387133ced8f",
+                "url": "https://api.github.com/repos/nette/utils/zipball/cda96ff718e7bad5e949527dbfa1d6d0498181d9",
+                "reference": "cda96ff718e7bad5e949527dbfa1d6d0498181d9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.4"
+                "php": ">=5.3.1"
             },
             "conflict": {
                 "nette/nette": "<2.2"
@@ -210,7 +210,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -236,47 +236,7 @@
             ],
             "description": "Nette Utility Classes",
             "homepage": "http://nette.org",
-            "time": "2015-05-21 14:45:11"
-        },
-        {
-            "name": "ondrakoupil/tools",
-            "version": "v0.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ondrakoupil/tools.git",
-                "reference": "d0f7ad54b333e3cdfad0088052ae80d470db5494"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ondrakoupil/tools/zipball/d0f7ad54b333e3cdfad0088052ae80d470db5494",
-                "reference": "d0f7ad54b333e3cdfad0088052ae80d470db5494",
-                "shasum": ""
-            },
-            "require-dev": {
-                "nette/tester": "^1.4@dev",
-                "ondrakoupil/testing-utils": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "OndraKoupil\\Tools\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ondřej Koupil",
-                    "email": "koupil@optimato.cz"
-                }
-            ],
-            "description": "Just a bunch of tools for myself",
-            "support": {
-                "source": "https://github.com/ondrakoupil/tools/tree/master",
-                "issues": "https://github.com/ondrakoupil/tools/issues"
-            },
-            "time": "2015-05-29 06:59:31"
+            "time": "2015-03-17 21:49:28"
         }
     ],
     "packages-dev": [
@@ -338,21 +298,21 @@
         },
         {
             "name": "ondrakoupil/testing-utils",
-            "version": "v0.0.4",
+            "version": "v0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ondrakoupil/testing-utils.git",
-                "reference": "92e13e1aa5f83bee36cb7c23deb2973da6763ec4"
+                "reference": "8c3f47660914c409eb8b645cc641930d6b2ef87d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ondrakoupil/testing-utils/zipball/92e13e1aa5f83bee36cb7c23deb2973da6763ec4",
-                "reference": "92e13e1aa5f83bee36cb7c23deb2973da6763ec4",
+                "url": "https://api.github.com/repos/ondrakoupil/testing-utils/zipball/8c3f47660914c409eb8b645cc641930d6b2ef87d",
+                "reference": "8c3f47660914c409eb8b645cc641930d6b2ef87d",
                 "shasum": ""
             },
             "require": {
                 "nette/tester": "^1.4",
-                "ondrakoupil/tools": "^0.0.2"
+                "ondrakoupil/tools": "^0.0.4"
             },
             "suggest": {
                 "nette/database": "For creating tests with Nette Database using NetteDatabaseTestCase"
@@ -363,6 +323,7 @@
                     "OndraKoupil\\Testing\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -373,15 +334,48 @@
                 }
             ],
             "description": "Some testing utilities",
-            "support": {
-                "source": "https://github.com/ondrakoupil/testing-utils/tree/v0.0.4",
-                "issues": "https://github.com/ondrakoupil/testing-utils/issues"
+            "time": "2015-05-29 09:10:39"
+        },
+        {
+            "name": "ondrakoupil/tools",
+            "version": "v0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ondrakoupil/tools.git",
+                "reference": "81ea2126a25eef9b721da316d4975e27f5d26825"
             },
-            "time": "2015-05-29 07:19:52"
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ondrakoupil/tools/zipball/81ea2126a25eef9b721da316d4975e27f5d26825",
+                "reference": "81ea2126a25eef9b721da316d4975e27f5d26825",
+                "shasum": ""
+            },
+            "require-dev": {
+                "nette/tester": "^1.4@dev",
+                "ondrakoupil/testing-utils": "^0.0.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OndraKoupil\\Tools\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ondřej Koupil",
+                    "email": "koupil@optimato.cz"
+                }
+            ],
+            "description": "Just a bunch of tools for myself",
+            "time": "2015-05-29 09:06:25"
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
         "nette/tester": 20
     },
