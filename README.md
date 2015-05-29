@@ -8,5 +8,5 @@ Entity manager with caching
 ## RelationController
 Manager for M:N relations between two entities
 
-## TreeStucture
+## TreeStructure
 Hierarchy tree representation in relation database and tools for manipulating it
