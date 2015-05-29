@@ -1,5 +1,6 @@
 # models
-Few classes for easy manipulation with data via Nette Database
+Few classes for easy manipulation with data via Nette Database.
+
 Intended for myself.
 
 ## DataManager
