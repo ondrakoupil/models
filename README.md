@@ -6,7 +6,7 @@ Intended for myself.
 Entity manager with caching
 
 ## RelationController
-M:N manager
+Manager for M:N relations between two entities
 
 ## TreeStucture
 Hierarchy tree representation in relation database and tools for manipulating it
