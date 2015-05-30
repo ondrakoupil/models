@@ -127,7 +127,7 @@ class DataManager extends \Nette\Object {
 	 * Umožňuje specifikovat, jaké všechny sloupce se mají cachovat. Defaultně všechny.
 	 * <br />Doporučení použití v konstruktoru odděděného objektu nebo v továrničce.
 	 * @param array|bool $cols ALL = všechny. Jinak array.
-	 * @return \OndraKoupil\DataManager
+	 * @return self
 	 */
 	function setCacheableCols($cols) {
 		if ($cols===self::ALL) {
@@ -147,7 +147,7 @@ class DataManager extends \Nette\Object {
 
 	/**
 	 * @param array|bool $cols
-	 * @return \OndraKoupil\DataManager
+	 * @return self
 	 * @see setCachableCols
 	 */
 	function addCacheableCols($cols) {
@@ -342,7 +342,7 @@ class DataManager extends \Nette\Object {
 	/**
 	 * Donutí si nacachovat data o určitých položkách. Může urychlit aplikaci.
 	 * @param bool|int|array $ids False (ALL), array nebo konkrétní ID
-	 * @return \OndraKoupil\DataManager
+	 * @return self
 	 */
 	function cache($ids=false) {
 		if ($this->isCachedAll) return $this;
@@ -378,7 +378,7 @@ class DataManager extends \Nette\Object {
 	 * Updatuje cache, pokud je potřeba změnit jen nějakou malou hodnotu a není důvod proto reloadovat celou cache.
 	 * @param int $id
 	 * @param array $values Asociativní pole
-	 * @return \OndraKoupil\DataManager Fluent interface
+	 * @return self
 	 * @throws \InvalidArgumentException
 	 */
 	function updateCache($id,$values) {
@@ -427,7 +427,7 @@ class DataManager extends \Nette\Object {
 	/**
 	 * Vymaže z cache všechny nebo vybrané položky
 	 * @param bool|array|int $ids False = všechny položky. Jinak ID.
-	 * @return \OndraKoupil\DataManager
+	 * @return self
 	 */
 	function clearCache($ids=false) {
 		if ($ids===false) return $this->clearCacheAll();
