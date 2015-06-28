@@ -3,7 +3,7 @@
     "description": "Few utility classes for easy data manipulation",
     "require-dev": {
         "nette/tester": "^1.4@dev",
-		"ondrakoupil/testing-utils": "^0.0.6"
+		"ondrakoupil/testing-utils": "^0.0.7"
     },
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
     "require": {
         "nette/database": "^2.3",
         "nette/utils": "^2.3",
-		"ondrakoupil/tools": "^0.0.4"
+		"ondrakoupil/tools": "^0.0.5"
     },
     "autoload": {
         "psr-4": {
